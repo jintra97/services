@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--- svg dude -->
+<link rel="icon" href="favicons/favicon.svg" type="image/svg+xml">
+<link rel="mask-icon" href="favicons/favicon.svg" color="#6d4588">
+
+<!-- standaard favicons -->
+<link rel="icon" href="favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="favicons/favicon-48x48.png" sizes="48x48" type="image/png">
+
+<!-- apple touch icon -->
+<link rel="apple-touch-icon" href="favicons/apple-touch-icon-180x180.png">
+<link rel="apple-touch-icon-precomposed" href="favicons/apple-touch-icon-180x180.png">
+
+<!-- Android/web app icons -->
+<link rel="icon" href="favicons/favicon-192x192.png" sizes="192x192" type="image/png" purpose="any maskable">
+<link rel="icon" href="favicons/favicon-512x512.png" sizes="512x512" type="image/png">
+
+<!-- Theme color and mobile meta -->
+<meta name="theme-color" content="#6d4588">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<!-- manifest voor Progressive Web Apps -->
+<link rel="manifest" href="favicons/manifest.json">
+  
+  <title>zakelijke voorwaarden | Jintra</title>
+  
+  <script src="translations.js"></script>
+
+  <style type="text/css">
+    
+  #languageSwitcher button:hover {
+      background-color: #56397d; /* donkerdere paarstint */
+      transform: scale(1.05); /* lichte zoom bij hover */
+      transition: all 0.2s ease;
+}
+
+    /* 
+      basispagina reset en styling 
+      gebaseerd op de e-mailtemplate en opgeschoond
+    */
+    html, body, #bodyTable, #bodyCell {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      font-family: helvetica, arial, sans-serif;
+      background-color: #6d4588; /* achtergrondkleur pagina */
+    }
+    
+    img {
+      border: 0;
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+      max-width: 100%;
+    }
+    
+    table {
+      border-collapse: collapse;
+    }
+    
+    /* prijzen en subtitle styling */
+    h1, p {
+      margin: 0;
+      padding: 0;
+    }
+    h2 {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    h3 {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    /* list styling */
+    ul {
+      padding-left: 20px; /* Zet een extra marge aan de linkerkant van de lijst */
+      margin-left: 0; /* Verwijder de standaard marge aan de linkerkant van de lijst */
+    }
+
+    /* container voor de hele inhoud */
+    .templateContainer {
+      width: 60%;
+      max-width: 1200px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      border: 0;
+      border-bottom: 2px solid #eaeaea;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* header styling */
+    #headerWrapper {
+      background-color: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .logo {
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
+
+    /* ondertitel styling */
+    .subHeading {
+      font-size: 14px;
+      color: #666666;
+      margin: 10px 0 20px 0;
+    }
+
+    /* body styling */
+    #bodyContent {
+      padding: 20px 40px;
+      font-size: 15px;
+      line-height: 1.6;
+      color: #202020;
+    }
+
+    /* footer styling */
+    #footerWrapper {
+      text-align: center;
+      background-color: #fafafa;
+      padding: 15px;
+      font-size: 12px;
+      color: #656565;
+    }
+    
+    .legal-details {
+                background-color: #f9f9f9;
+                border: 1px solid #eaeaea;
+                border-radius: 4px;
+                margin: 20px 0;
+            }
+            
+            .legal-summary {
+                padding: 15px;
+                cursor: pointer;
+                user-select: none;
+            }
+            
+            .legal-summary:hover {
+                background-color: #f5f5f5;
+            }
+            
+            .legal-content {
+                padding: 0 15px 15px 15px;
+                font-size: 14px;
+            }
+
+            
+    /* responsive: maak de container 100% op small screens */
+    @media only screen and (max-width: 768px) {
+      .templateContainer {
+        width: 95% !important;
+      }
+      #bodyContent {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <table id="bodyTable" width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td id="bodyCell" align="center" valign="top">
+        <table class="templateContainer" border="0" cellpadding="0" cellspacing="0">
+          
+          <!-- HEADER -->
+          <tr>
+            <td id="headerWrapper">
+              <a href="https://Jintra.nl" target="_blank">
+              <img class="logo" src="https://i.imgur.com/Goa2Ydw.png" alt="Jintra logo">
+              </a>
+
+              <!-- LANGUAGE KNOPJESSSS -->
+              <div id="languageSwitcher" style="text-align: center; margin: 20px;">
+                <button onclick="setLanguage('nl')" style="padding: 10px 15px; margin: 5px; border: none; background-color: #6d4588; color: white; cursor: pointer; border-radius: 5px;">🇳🇱</button>
+                <button onclick="setLanguage('en')" style="padding: 10px 15px; margin: 5px; border: none; background-color: #6d4588; color: white; cursor: pointer; border-radius: 5px;">🇬🇧</button>
+              </div>
+              
+
+              <h1 style="font-size: 24px; color: #202020; margin-bottom: 5px;" data-key="titel">
+                zakelijke voorwaarden
+              </h1>
+              <div class="subHeading" data-key="ingangsdatum">
+                ingangsdatum: 25/11/2024
+              </div>
+            </td>
+          </tr>
+
+          <!-- BODY CONTENT (LICENTIETEKST) -->
+          <tr>
+            <td id="bodyContent">
+              <p style="font-size: 90%;" data-key="welcome">
+                <strong>welkom!</strong> door het boeken van een optreden of zakelijke dienst bij Jintra ga je akkoord met de onderstaande voorwaarden. lees deze zorgvuldig door voordat je verdergaat.
+              </p>
+          
+              <h2 style="margin: 30px 0 10px;" data-key="services">zakelijke diensten en optredens</h2>
+          
+              <h3 data-key="generalTerms">algemene voorwaarden</h3>
+          
+              <p data-key="applicability">
+                <strong>1. toepasselijkheid</strong><br>
+                deze voorwaarden zijn van toepassing op alle zakelijke diensten van Jintra, waaronder optredens, muziekproductie, mixing & mastering en facturatie. door een opdracht te plaatsen, gaat de opdrachtgever akkoord met deze voorwaarden.
+              </p>
+          
+              <h3 data-key="billing">facturatie & betaling</h3>
+          
+              <p data-key="billingTerms">
+                <strong>2. betalingstermijn</strong><br>
+                betaling dient te worden voldaan binnen 14 dagen na factuurdatum. bij overschrijding van de betalingstermijn wordt 5% rente per maand in rekening gebracht. bij betaling via iDeal of PayPal gelden extra transactiekosten van €1.
+              </p>
+          
+              <p data-key="invoiceProvision">
+                <strong>3. facturen</strong><br>
+                facturen worden verstrekt bij elke aankoop of opdracht. alle aankopen zijn definitief en niet-restitueerbaar.
+              </p>
+          
+              <p data-key="refundTerms">
+                <strong>4. geschillen en restituties</strong><br>
+                restituties worden niet verleend, tenzij schriftelijk overeengekomen. neem bij geschillen rechtstreeks contact op met Jintra om het probleem op te lossen.
+              </p>
+          
+              <p data-key="paymentMethods">
+                <strong>5. betaalmethoden</strong><br>
+                directe bankoverschrijving, ideal & paypal.
+              </p>
+          
+              <h3 data-key="promotions">aanbiedingen & promoties</h3>
+          
+              <p data-key="promoTerms">
+                <strong>6. tijdelijke kortingen</strong><br>
+                Jintra behoudt zich het recht voor om tijdelijke aanbiedingen, kortingen of promoties aan te bieden. deze promoties zijn altijd tijdelijk en hebben geen invloed op de standaard voorwaarden. promotionele aankopen vallen onder dezelfde voorwaarden als reguliere aankopen.
+              </p>
+          
+              <h3 data-key="performances">optredens & boekingen</h3>
+          
+              <p data-key="bookingConfirmation">
+                <strong>7. boekingen</strong><br>
+                een boeking is pas definitief na schriftelijke bevestiging. offertes zijn 7 dagen geldig, tenzij anders overeengekomen. de opdrachtgever is verantwoordelijk voor een geschikte locatie en de minimaal benodigde apparatuur. Jintra levert een rider met technische en logistieke vereisten.
+              </p>
+          
+              <p data-key="cancellationPolicy">
+                <strong>8. annuleringen</strong><br>
+                bij annulering door de opdrachtgever gelden de volgende voorwaarden:
+              </p>
+              <ul>
+                <li data-key="daysThirty">>30 dagen: geen kosten</li>
+                <li data-key="daysFifteenToThirty">15-30 dagen: 50% van het bedrag verschuldigd</li>
+                <li data-key="daysUnderFifteen">&lt;15 dagen: 100% van het bedrag verschuldigd</li>
+              </ul>
+          
+              <h3 data-key="production">mixing & mastering</h3>
+          
+              <p data-key="fileRequirements">
+                <strong>9. bestandsvereisten</strong><br>
+                alle bestanden dienen te worden aangeleverd in wav-formaat (24-bit, 44.1khz of hoger), correct benoemd en zonder effecten (droog). de standaard levertijd is 3-7 werkdagen. een mix- of masteropdracht is niet restitueerbaar.
+              </p>
+          
+              <p data-key="revisions">
+                <strong>10. revisies</strong><br>
+                de opdrachtgever heeft recht op 2 gratis revisies. extra revisies worden in rekening gebracht tegen een tarief dat vooraf wordt overeengekomen.
+              </p>
+          
+              <p data-key="fileRetention">
+                <strong>11. bestandsbewaring</strong><br>
+                afgeronde projecten worden 30 dagen bewaard. na deze periode kunnen bestanden niet worden gegarandeerd.
+              </p>
+          
+              <p data-key="liabilityProduction">
+                <strong>12. aansprakelijkheid bij mixing & mastering</strong><br>
+                Jintra is niet verantwoordelijk voor commercieel succes of streamingprestaties van de eindmix of master.
+              </p>
+          
+              <h3 data-key="liability">aansprakelijkheid & overmacht</h3>
+          
+              <p data-key="forceMajeure">
+                <strong>13. overmacht</strong><br>
+                Jintra is niet aansprakelijk voor schade die voortvloeit uit overmacht, waaronder ziekte, overheidsmaatregelen of extreme weersomstandigheden.
+              </p>
+          
+              <p data-key="technicalIssues">
+                <strong>14. technische problemen</strong><br>
+                Jintra is niet verantwoordelijk voor technische problemen veroorzaakt door apparatuur van de opdrachtgever.
+              </p>
+          
+              <p data-key="fileLoss">
+                <strong>15. bestandsverlies</strong><br>
+                eenmaal geleverde bestanden vallen niet onder de verantwoordelijkheid van Jintra.
+              </p>
+          
+              <h3 data-key="agreement">overeenkomst & wijzigingen</h3>
+          
+              <p data-key="agreementTerms">
+                <strong>16. overeenkomst</strong><br>
+                door een dienst van Jintra af te nemen, ga je akkoord met deze voorwaarden. deze voorwaarden kunnen worden bijgewerkt. controleer <a href="https://zakelijk.jintra.nl">zakelijk.jintra.nl</a> voor de meest recente versie.
+              </p>
+          
+              <p data-key="contact"><strong>contact</strong><br>
+                voor vragen of maatwerk, stuur een e-mail naar: <a href="mailto:hmu@jintra.nl">hmu@jintra.nl</a>
+              </p>
+            </td>
+          </tr>
+          
+          
+          
+          
+          
+        
+            
+            <!-- BODY CONTENT (JURIDISCHE BEPALINGEN) -->
+            <tr>
+              <td id="bodyContent">
+            <!-- legal footer thing -->
+            <details class="legal-details">
+              <summary class="legal-summary" data-key="legalSummary"><strong>uitgebreide juridische bepalingen</strong></summary>
+              <div class="legal-content">
+                <p data-key="legalApplicableLaw"><strong>1. toepasselijk recht</strong><br>
+                op deze overeenkomst is Nederlands recht van toepassing. alle geschillen die voortvloeien uit deze overeenkomst zullen worden voorgelegd aan de bevoegde rechter in het arrondissement waar Jintra is gevestigd.</p>
+            
+                <p data-key="legalIntellectualProperty"><strong>2. intellectuele eigendomsrechten</strong><br>
+                alle intellectuele eigendomsrechten, waaronder maar niet beperkt tot auteursrechten, naburige rechten en databankrechten, blijven te allen tijde bij Jintra berusten. de opdrachtgever verkrijgt uitsluitend de gebruiksrechten die in deze overeenkomst uitdrukkelijk worden toegekend.</p>
+            
+                <p data-key="legalLiability"><strong>3. aansprakelijkheid</strong><br>
+                Jintra is niet aansprakelijk voor enige schade die voortvloeit uit het gebruik van geleverde diensten, tenzij er sprake is van opzet of grove schuld. de totale aansprakelijkheid van Jintra is in alle gevallen beperkt tot het bedrag dat voor de betreffende dienst of opdracht is betaald.</p>
+            
+                <p data-key="legalIndemnification"><strong>4. vrijwaring</strong><br>
+                de opdrachtgever vrijwaart Jintra voor alle aanspraken van derden die verband houden met het gebruik van een door Jintra geleverde dienst of uitgevoerd optreden.</p>
+            
+                <p data-key="legalSeverability"><strong>5. nietigheid</strong><br>
+                indien één of meer bepalingen uit deze voorwaarden nietig blijken te zijn, tast dit niet de geldigheid van de overige bepalingen aan. partijen zullen in dat geval de nietige bepaling vervangen door een rechtsgeldige bepaling die zo veel mogelijk aansluit bij de bedoeling van de nietige bepaling.</p>
+            
+                <p data-key="legalChanges"><strong>6. wijzigingen</strong><br>
+                Jintra behoudt zich het recht voor deze voorwaarden te wijzigen. wijzigingen worden 30 dagen na bekendmaking van kracht. voor reeds afgesloten opdrachten of overeenkomsten blijven de voorwaarden gelden die van toepassing waren op het moment van de boeking of opdracht.</p>
+            
+                <p data-key="legalAgreement"><strong>7. overeenkomst</strong><br>
+                door een dienst af te nemen van Jintra, waaronder optredens, mixing & mastering, of zakelijke samenwerkingen, verklaart de opdrachtgever zich uitdrukkelijk akkoord met deze voorwaarden. deze overeenkomst vormt de volledige overeenkomst tussen partijen en vervangt alle eerdere mondelinge of schriftelijke afspraken.</p>
+              </div>
+            </details>
+          </td>
+        </tr>
+
+
+          <!-- FOOTER -->
+          <tr>
+            <td id="footerWrapper" data-key="footer">
+              © 2025 Jintra — alle rechten voorbehouden.
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

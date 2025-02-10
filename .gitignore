@@ -1,0 +1,9 @@
+.DS_Store
+*.wflow
+*.plist
+Automator\ Application\ Stub
+*.icns
+*.car
+CodeResources
+InfoPlist.locatable
+run localhost.app/Contents/Resources/InfoPlist.loctable
