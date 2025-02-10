@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "technicalIssues": "<strong>14. technical issues</strong><br> Jintra is not responsible for technical problems caused by the client's equipment.",
       "fileLoss": "<strong>15. file loss</strong><br> once delivered, files are no longer the responsibility of Jintra.",
       "agreement": "agreement & changes",
-      "agreementTerms": "<strong>16. agreement</strong><br> by purchasing a service from Jintra, you agree to these terms. these terms may be updated. check <a href=\"https://zakelijk.jintra.nl\">zakelijk.jintra.nl</a> for the latest version.",
+      "agreementTerms": "<strong>16. agreement</strong><br> by purchasing a service from Jintra, you agree to these terms. these terms may be updated. check <a href=\"https://services.jintra.nl\">services.jintra.nl</a> for the latest version.",
       "contact": "<strong>contact</strong><br> for questions or custom services, email: <a href=\"mailto:hmu@jintra.nl\">hmu@jintra.nl</a>",
       "legalSummary": "<strong>extended legal provisions</strong>",
       "legalApplicableLaw": "<strong>1. applicable law</strong><br> this agreement is subject to Dutch law. all disputes arising from this agreement will be submitted to the competent court in the district where Jintra is established.",
