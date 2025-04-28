@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "generalTerms": "general terms",
       "applicability": "<strong>1. applicability</strong><br> these terms apply to all of Jintra\'s business services, including performances, music production, mixing & mastering, and invoicing. by placing an order, the client agrees to these terms.",
       "billing": "billing & payment",
-      "billingTerms": "<strong>2. payment term</strong><br> payment must be made within 14 days of the invoice date. if the payment term is exceeded, a 5% interest per month will be charged. for payments via iDeal or PayPal, an additional transaction fee of €1 applies.",
+      "billingTerms": "<strong>2. payment term</strong><br> payment must be made within 14 days of the invoice date. if the payment term is exceeded, a 5% interest per month will be charged.",
       "invoiceProvision": "<strong>3. invoices</strong><br> invoices are provided for every purchase or order. all purchases are final and non-refundable.",
       "refundTerms": "<strong>4. disputes & refunds</strong><br> refunds will not be granted unless agreed in writing. in case of disputes, contact Jintra directly to resolve the issue.",
       "paymentMethods": "<strong>5. payment methods</strong><br> direct bank transfer, iDeal & PayPal.",
